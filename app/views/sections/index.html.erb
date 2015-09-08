@@ -1,0 +1,35 @@
+<% @page_title = 'Sections' %>
+<div class="sections index">
+  <%= link_to('Pages', {controller: :pages, :subject_id => @subject.id}) %>
+
+  <% if @page  %>
+      <h2>Sections for <%= @page.name %></h2>
+  <% else %>
+      <h2>Sections</h2>
+  <% end %>
+  <%= link_to(image_tag('plus_sign.png', alt: 'plus-sign', size: '11x11') + 'Add New Section', {action: :new, :page_id => @page.id}, class: 'action new') %>
+  <% if @sections.any? %>
+    <table class="listing" summary="Sections List">
+      <tr class="header">
+        <th>&nbsp;</th>
+        <th>Name</th>
+        <th>Visible</th>
+        <th>Content Type</th>
+        <th>Actions</th>
+      </tr>
+      <% @sections.each do |section| %>
+        <tr>
+          <td><%= section.position %></td>
+          <td><%= section.name %></td>
+          <td class="center"><%= status_tag(section.visible) %></td>
+          <td><%= section.content_type %></td>
+          <td class="actions">
+            <%= link_to 'Show', {action: :show, :page_id => @page.id, :id => section.id}, class: 'action show' %>
+            <%= link_to 'Edit', {action: :edit, :page_id => @page.id, :id => section.id}, class: 'action edit' %>
+            <%= link_to 'Delete', {action: :delete, :page_id => @page.id, :id => section.id}, class: 'action delete' %>
+          </td>
+        </tr>
+      <% end %>
+    </table>
+  <% end %>
+</div>

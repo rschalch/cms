@@ -1,0 +1,25 @@
+<%= link_to 'Back to Index', {action: :index} %>
+
+<div>
+  <h2>Subject:</h2>
+  <table>
+    <tr>
+      <th>Name:</th>
+      <th>Position:</th>
+      <th>Visible:</th>
+      <th>Pages:</th>
+      <th>Created:</th>
+      <th>Updated:</th>
+    </tr>
+    <tr>
+      <td><%= @subject.name %></td>
+      <td><%= @subject.position %></td>
+      <td><%= @subject.visible %></td>
+      <td><%= @subject.pages.size %></td>
+      <td><%= @subject.created_at %></td>
+      <td><%= @subject.updated_at %></td>
+    </tr>
+  </table>
+</div>
+<hr>
+<%= params.inspect %>

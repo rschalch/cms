@@ -1,0 +1,12 @@
+<%= link_to '<< Back to List', {action: :index} %>
+
+<div>
+  <h2>Create Subject</h2>
+
+	<%= form_for :subject, :url => {action: :create} do |f| %>
+    <%= render(partial: 'form', locals: {:f => f}) %>
+		<div>
+			<%= submit_tag 'Create Subject' %>
+		</div>
+	<% end %>
+</div>

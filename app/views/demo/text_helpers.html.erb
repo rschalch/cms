@@ -1,0 +1,43 @@
+<% texto = "Pessoal, temos vaga no Netshow.me para desenvolvedor backend em RoR\n\npara trabalhar em nosso escritório em São Paulo ou remotamente. Se alguém tiver interesse\n\nou conhecer alguém que possa se interessar, só marcar no post ou enviar o link abaixo.\n\nPara se candidatar, é só acessar o link , ler com atenção e preencher o formulário" %>
+
+<h2>normal</h2>
+<%= texto %>
+
+<h2>word_wrap</h2>
+<%= word_wrap(texto, :line_width => 30) %>
+<hr/>
+
+<h2>simple_format</h2>
+<%= simple_format(texto, :line_width => 30) %>
+<hr/>
+
+<h2>simple_format + word_wrap</h2>
+<%= simple_format(word_wrap(texto, :line_width => 30)) %>
+<hr/>
+
+<h2>truncate</h2>
+<%= truncate(texto, :length => 40, :omission => '...') %>
+<hr/>
+
+<h2>excerpt</h2>
+<%= excerpt(texto, 'interessar', :radius => 7, :omission => '...') %>
+<hr/>
+
+<h2>highlight</h2>
+<%= highlight(texto, 'alguém') %>
+<%= highlight(texto, %w(interessar formulário), :highlighter => '<strong>\1</strong>') %>
+<hr/>
+
+<h2>pluralize</h2>
+<% %w(0 1 2 20).each do |n| %>
+	<%= pluralize(n, 'product') %><br>
+	<%= pluralize(n, 'octopus') %><br>
+	<%= pluralize(n, 'wolf', 'gang') %><br>
+<% end %>
+<hr/>
+
+<h2>cycle</h2>
+<% 5.times do %>
+	<%= cycle('red', 'green', 'blue') %><br>
+<% end %>
+<hr/>

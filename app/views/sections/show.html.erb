@@ -1,0 +1,27 @@
+<%= link_to 'Back to Index', {action: :index} %>
+
+<div>
+  <h2>Section:</h2>
+  <table>
+    <tr>
+      <th>Name:</th>
+      <th>Position:</th>
+      <th>Visible:</th>
+      <th>Content Type:</th>
+      <th>Content:</th>
+      <th>Created:</th>
+      <th>Updated:</th>
+    </tr>
+    <tr>
+      <td><%= @section.name %></td>
+      <td><%= @section.position %></td>
+      <td><%= @section.visible %></td>
+      <td><%= @section.content_type %></td>
+      <td><%= @section.content %></td>
+      <td><%= @section.created_at %></td>
+      <td><%= @section.updated_at %></td>
+    </tr>
+  </table>
+</div>
+<hr>
+<%= params.inspect %>

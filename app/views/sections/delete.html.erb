@@ -1,0 +1,35 @@
+<%= link_to 'Back to Index', {action: :index} %>
+
+<div>
+  <h2>Delete Section</h2>
+
+  <%= form_for :section, :url => {action: :destroy, id: @section.id, page_id: @page.id} do |f| %>
+    <p>Are you sure for deleting this section ?</p>
+    <table summary="Section form field">
+      <tr>
+        <th>Name:</th>
+        <td><%= @section.name %></td>
+      </tr>
+      <tr>
+        <th>Position:</th>
+        <td> <%= @section.position %></td>
+      </tr>
+      <tr>
+        <th>Visible:</th>
+        <td><%= @section.visible %></td>
+      </tr>
+      <tr>
+        <th>Content Type:</th>
+        <td><%= @section.content_type %></td>
+      </tr>
+      <tr>
+        <th>Content:</th>
+        <td><%= @section.content %></td>
+      </tr>
+    </table>
+    <div>
+      <%= submit_tag 'Delete Section' %>
+    </div>
+  <% end %>
+</div>
+

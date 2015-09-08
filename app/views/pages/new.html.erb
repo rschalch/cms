@@ -1,0 +1,14 @@
+<%= link_to '<< Back to List', {action: :index, subject_id: @subject.id} %>
+
+<div>
+  <h2>Create Page yo!</h2>
+
+  <%= form_for :page, :url => {action: :create, subject_id: @subject.id} do |f| %>
+
+    <%= render(partial: 'form', locals: {:f => f} ) %>
+
+    <div>
+      <%= submit_tag 'Create Page' %>
+    </div>
+  <% end %>
+</div>

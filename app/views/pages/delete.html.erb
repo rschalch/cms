@@ -1,0 +1,31 @@
+<%= link_to 'Back to Index', {action: :index, subject_id: @subject.id} %>
+
+<div>
+  <h2>Delete Page</h2>
+
+  <%= form_for :page, :url => {action: :destroy, id: params[:id], subject_id: @subject.id} do |f| %>
+    <p>Are you sure for deleting this subject ?</p>
+    <table summary="Page form field">
+      <tr>
+        <th>Name:</th>
+        <td><%= @page.name %></td>
+      </tr>
+      <tr>
+        <th>Permalink:</th>
+        <td><%= @page.permalink %></td>
+      </tr>
+      <tr>
+        <th>Position:</th>
+        <td> <%= @page.position %></td>
+      </tr>
+      <tr>
+        <th>Visible:</th>
+        <td><%= @page.visible %></td>
+      </tr>
+    </table>
+    <div>
+      <%= submit_tag 'Delete Page' %>
+    </div>
+  <% end %>
+</div>
+

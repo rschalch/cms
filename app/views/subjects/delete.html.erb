@@ -1,0 +1,26 @@
+<%= link_to 'Back to Index', {action: :index} %>
+
+<div>
+  <h2>Delete Subject</h2>
+
+  <%= form_for :subject, :url => {action: :destroy, id: @subject.id} do |f| %>
+		<p>Are you sure for deleting this subject ?</p>
+    <table summary="Subject form field">
+      <tr>
+        <th>Name:</th>
+        <td><%= @subject.name %></td>
+      </tr>
+      <tr>
+        <th>Position:</th>
+        <td> <%= @subject.position %></td>
+      </tr>
+      <tr>
+        <th>Visible:</th>
+        <td><%= @subject.visible %></td>
+      </tr>
+    </table>
+    <div>
+      <%= submit_tag 'Delete Subject' %>
+    </div>
+  <% end %>
+</div>

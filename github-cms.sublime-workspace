@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"msm",
+				"msmtprc"
+			],
+			[
+				"N",
+				"nginx"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"sy",
+				"synced_folder"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 326.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sch",
+				"Schemr: List all schemes"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/development/github/cms"
+	],
+	"file_history":
+	[
+		"/C/Users/Ricardo/Desktop/tmpfile",
+		"/G/backup/QuickRef/ubuntu_mongodb.txt",
+		"/G/backup/QuickRef/ubuntu_php_development.txt",
+		"/G/backup/QuickRef/ubuntu_rails_development.txt",
+		"/C/development/devmachine/provision/common.sh",
+		"/C/development/devmachine/Vagrantfile",
+		"/G/backup/QuickRef/ubuntu_vagrant_firewall.txt",
+		"/C/Users/Ricardo/Desktop/Metal Gear Solid - NoCD Fixed Exe - Win XP-Vista GeForce-ATi FiX by MerolaC (FiX v1.01)/Readme!!.txt",
+		"/F/Splash PRO EX v1.13.2 with Key [TorDigger]/Key.txt",
+		"/F/Splash PRO EX v1.13.2 with Key [TorDigger]/ReadMe!.txt",
+		"/E/Playstation/games/Resident Evil  1 2 3  Português PS1 (POR FTR)/resident_pack_pt-br.nfo",
+		"/C/Users/Ricardo/Desktop/yrmp/psxfin_1.13/games/ResourceRG_NFO_please_read.nfo",
+		"/C/Users/Ricardo/Desktop/yrmp/psxfin_1.13/games/Tomba! (USA)/Tomba! (USA).cue",
+		"/C/development/devmachine/configuration/sites-enabled/yoshis",
+		"/C/development/devmachine/development/rails/learning_ruby/application/init.rb",
+		"/C/development/devmachine/development/rails/ignicao_digital/TEST.md",
+		"/F/Adobe CC/Photoshop CC 2015 x64/EXTENSIONS/WebZap_V1.1/WebZap/mimetype",
+		"/F/Adobe CC/Photoshop CC 2015 x64/EXTENSIONS/WebZap_V1.1/WebZap/WebZap/WebZap.jsx",
+		"/F/Adobe CC/Photoshop CC 2015 x64/EXTENSIONS/WebZap_V1.1/WebZap/META-INF/signatures.xml",
+		"/F/Adobe CC/Photoshop CC 2015 x64/EXTENSIONS/WebZap_V1.1/WebZap/WebZap.mxi",
+		"/F/plagin webzap/WebZap_V1.0/WebZap/WebZap.mxi",
+		"/C/Program Files/Adobe/Adobe Photoshop CC 2015/Required/CEP/extensions/WebZap/META-INF/signatures.xml",
+		"/C/Users/Ricardo/AppData/Roaming/Adobe/Extension Manager CC/Configuration/UNSIGNED_MXI_ZXP_MXP",
+		"/F/Essentials/Listary Pro 4.23 Build 1728/key.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/development/devmachine/configuration/sites-enabled/multiforma",
+		"/C/Users/Ricardo/Desktop/README.txt",
+		"/C/tombraider/CDROM.TXT",
+		"/C/tombraider/dosbox.conf",
+		"/C/Users/Ricardo/Desktop/tomb-raider-1-installer-1.7.4/Readme 1st.txt",
+		"/D/Games/Tomb Raider/Tomb Raider 1/TOMBPATH.TXT",
+		"/C/Users/Ricardo/Desktop/Legendas33_QCw/ajuda.txt",
+		"/C/Users/Ricardo/Desktop/VWDesktopIcons_1.4/VWDesktopIcons_1.4/README.TXT",
+		"/C/development/devmachine/provision/rvm.sh",
+		"/C/development/devmachine/provision/ruby.sh",
+		"/X/Ricardo - Benedito/mestremestremestre.txt",
+		"/C/Users/Ricardo/Desktop/ExpanDrive 4.3.1/dvt.nfo",
+		"/C/development/devmachine/development/php/angularjs/.bowerrc",
+		"/C/development/devmachine/provision/provision.sh",
+		"/C/Users/Ricardo/Desktop/zu",
+		"/C/development/devmachine/.vagrant/machines/default/virtualbox/private_key",
+		"/G/backup/senhas_provedores.txt",
+		"/C/development/devmachine/configuration/sites-enabled/default",
+		"/C/Users/Ricardo/AppData/Local/Temp/fz3temp-1/default",
+		"/C/Users/Ricardo/AppData/Local/Temp/fz3temp-1/localhost",
+		"/C/Users/Ricardo/AppData/Local/Temp/fz3temp-1/multiforma",
+		"/C/development/devmachine/configuration/php/xdebug.ini",
+		"/C/development/devmachine/configuration/php/php.ini",
+		"/C/development/php_machine/provision/provision.sh",
+		"/C/development/rails_machine/Vagrantfile",
+		"/C/development/php_machine/Vagrantfile",
+		"/C/development/rails_machine/provision/provision.sh",
+		"/C/development/php_machine/configuration/sites-enabled/multiforma",
+		"/G/backup/Docs/120113/emerson.txt",
+		"/G/backup/Docs/120113/gui.txt",
+		"/G/backup/Docs/120113/paste.txt",
+		"/G/backup/Docs/paste.txt",
+		"/G/backup/Docs/senhas",
+		"/C/development/php_machine/configuration/php/php.ini",
+		"/C/development/php_machine/configuration/nginx.conf",
+		"/C/development/php_machine/configuration/php/xdebug.ini",
+		"/C/development/php_machine/configuration/php/msmtprc",
+		"/C/development/php_machine/configuration/php.ini",
+		"/C/development/php_machine/configuration/multiforma",
+		"/G/backup/QuickRef/vm_criacao_do_ambiente.txt",
+		"/C/development/php_machine/code/sample.txt",
+		"/C/development/samples/vagrant machines/Vagrantfile",
+		"/C/development/samples/vagrant machines/provision/provision.sh",
+		"/C/development/rails_machine/.vagrant/machines/default/virtualbox/synced_folders",
+		"/G/backup/QuickRef/photoshop_pixel_art.txt",
+		"/C/dev/github/devmachine/provision.sh",
+		"/C/devmachine/provision/provision.sh",
+		"/C/devmachine/Vagrantfile",
+		"/C/Users/Ricardo/Desktop/WinNc 7.0.0.0 Multilingual/ser.no.txt",
+		"/C/dev/github/devmachine/Vagrantfile",
+		"/C/Users/Ricardo/Desktop/Rossi",
+		"/C/devmachine/provision/install-rvm.sh",
+		"/C/devmachine/provision/install-ruby.sh",
+		"/C/devmachine/provision/install-ruby-rails.sh",
+		"/C/devmachine/provision/install-nodejs.sh",
+		"/C/devmachine/provision/install-mysql.sh",
+		"/C/devmachine/provision/install-nginx.sh",
+		"/C/devmachine/provision/main.sh",
+		"/C/devmachine/provision/install-gems.sh",
+		"/C/devmachine/provision.sh",
+		"/C/devmachine/provision/install_ruby.sh",
+		"/C/devmachine/.vagrant/machines/default/virtualbox/synced_folders",
+		"/F/Development Tools/Microsoft Visual Studio 2015 Enterprise/Keys.txt",
+		"/C/Users/Ricardo/Desktop/vs2015_serial.txt",
+		"/C/Users/Ricardo/Desktop/Backup LTA/desktop.ini",
+		"/C/Users/Ricardo/Desktop/Serial.txt",
+		"/C/Users/Ricardo/AppData/Roaming/Sublime Text 3/Packages/User/Pretty JSON.sublime-settings",
+		"/C/Users/Ricardo/AppData/Roaming/Sublime Text 3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/C/devmachine/www/3.txt",
+		"/C/devmachine/www/1.txt",
+		"/C/Vagrant/embedded/gems/gems/vagrant-1.7.2/plugins/synced_folders/rsync/helper.rb",
+		"/C/devmachine/.gitignore",
+		"/F/Adobe CC/Adobe Acrobat Pro DC 2015.007.20033/!!!!!!!!! Gerar o serial com xf-aarpxi e o request code com xf-adobecc2014.txt",
+		"/F/Development Tools/JetBrains RubyMine 7.1.4/serial.txt",
+		"/H/PLEXTV/FILMES/1992 Dracula/Dracula.1992.1080p.BluRay.x264.YIFY.srt",
+		"/C/Program Files (x86)/VirtuaWin/README.TXT",
+		"/C/Users/Ricardo/Desktop/UltraMon™ 3.1.0/Serials.txt",
+		"/C/Users/Ricardo/Desktop/filmfix.txt",
+		"/C/Sandbox/DONT-USE.TXT",
+		"/C/devmachine/puphpet/config.yaml",
+		"/C/Vagrant/embedded/gems/gems/vagrant-1.7.3/plugins/providers/virtualbox/driver/version_5_0.rb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"\n",
+			"short_open",
+			"error_reporting",
+			"list",
+			"cgi.fix",
+			"listen",
+			"\"\n",
+			"8000"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "github-cms.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

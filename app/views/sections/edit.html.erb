@@ -1,0 +1,14 @@
+<%= link_to 'Back to Index', {action: :index, :page_id => @page.id} %>
+
+<div>
+  <h2>Edit Section</h2>
+
+  <%= form_for :section, :url => {action: :update, :id => @section.id, :page_id => @page.id} do |f| %>
+
+    <%= render(partial: 'form', locals: {:f => f} ) %>
+		
+    <div>
+      <%= submit_tag 'Update Section' %>
+    </div>
+  <% end %>
+</div>

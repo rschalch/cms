@@ -1,0 +1,25 @@
+<%= link_to('Roar', '#', :onclick => "jsRoar('Javascript'); return true;") %>
+<%= javascript_tag('jsRoar("Rails")') %>
+
+<h4>number_to_currency</h4>
+<p>34.5 converted to scandinavian kronos and custom format: <%= number_to_currency(34.5, :unit => 'kr', :format => '%n %u') %></p>
+<hr/>
+<h4>number_to_percentage</h4>
+<p>34.5 with precision 2 and separator ',': <%= number_to_percentage(34.5, :precision => 2, :separator => ',') %></p>
+<hr/>
+<h4>number_with_precision</h4>
+<p>34.56789 rounded: <%= number_with_precision(34.56789) %></p>
+<hr/>
+<h4>number_with_delimiter</h4>
+<p>3456789 with a space separator: <%= number_with_delimiter(3456789, :delimiter => ' ') %></p>
+<hr/>
+<h4>number_to_human</h4>
+<p>123456789 converted to human reading and precision 5: <%= number_to_human(123456789, :precision => 5) %></p>
+<hr/>
+<h4>number_to_human_size (for data or files usually)</h4>
+<p>12345678: <%= number_to_human_size(12345678) %></p>
+<p>12345678 with precision 2: <%= number_to_human_size(12345678, :precision => 2) %></p>
+<hr/>
+<h4>number_to_phone (for american numbers apparently)</h4>
+<p>1532366599, ramal 50, with some options: <%= number_to_phone(1532366599, :area_code => true, :delimiter => ' ', :contry_code => 55, :extension => '50') %></p>
+<hr/>
